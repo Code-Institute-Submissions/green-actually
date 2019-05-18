@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Railway:100,200,300,400,500,600,700');
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: "Railway", sans-serif;
+}
+
+/*--------------------navbar */
+
+nav {
+    font-family: "Railway", sans-serif;
+}
+
+.nav-link {
+    color: #27a844;
+}
+
+.nav-link:hover {
+    background: #f8ffaf;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.logo {
+    background: url("../assets/logo/green_actually_logo_v1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 175px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #e2f1e4;
+    border: 0;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+/*-----------------------callout*/
+
+.cointainer-callout {
+    text-align: center;
+    height: 100vh;
+    background: url("../assets/logo/green-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.cointainer-callout-1 {
+    height: 100vh;
+    background: url("../assets/logo/green1-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.cointainer-callout-2 {
+    height: 100vh;
+    background: url("../assets/logo/green2-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+ 
+.cointainer-callout-3 {
+    height: 100vh;
+    background: url("../assets/logo/green3-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.callout {
+    display: block;
+    margin: 50px 0px 0px 150px;
+    background:rgba(255,255,255,0.7);
+}
+
+.btn--red {
+    background-color: #f8ffaf;
+}
+
+.blockquote {
+    padding-top: 20px;
+    color: #27a844;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/*-----------------------about*/
+
+.about {
+    text-align: center;
+}
+
+.about div {
+    padding: 55px;
+}
+
+.about p {
+    margin: 0px 90px 90px 90px;
+}
+
+.title {
+    margin: 50px 0px 5px 0px;
+}
+
+.title2 {
+    margin: 10px 0px 5px 0px;
+    display: block;
+    color: #fafafa;
+}
+
+.title3 {
+     margin: 50px 150px 10px 150px;
+     color: #fafafa;
+}
+
+.icon { 
+    text-align: center;
+    display: block;
+    margin: 45px 0px 45px 0px;
+}
+
+.ideas {
+    text-align: left;
+    padding: 5px;
+    margin: 45px 0px 45px 0px;
+}
+
+/*-----------------------footer*/
+
+footer {
+    font-family: "Railway", sans-serif;
+    background-color: #e2f1e4;
+    color: #27a844;
+    min-height: 150px;
+    margin: 0;
+}
+
+.get-inspired {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.video {
+    width: 280;
+    height: 157;
+    margin: 20px;
+}
+
+.social-links {
+    padding: 15px 30px 15px 0px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #27a844;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #f8ffaf;
+}
+
+#footer-details {
+    padding: 20px;
+}
