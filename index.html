@@ -12,50 +12,53 @@
 </head>
 
 <body>
-
     <!-- navbar --------------------------------------------------------------------------------------------->
-
-    <nav class="navbar navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-expand-sm">
         <a href="index.html" class="logo my-auto"></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mr-2"><a class="nav-link" href="/step1.html">Step 1</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/step2.html">Step 2</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/step3.html">Step 3</a></li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/">Sign Up for Newsletter</a></li>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="/step1.html">Step 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="/step2.html">Step 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="/step3.html">Step 3</a></li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/">Log in</a></li>
             </ul>
         </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Go Green Actually!</i></p>
-            <button href="/" type="button" class="btn btn-outline-success">Sign Up</button>
+            <button type="button" class="btn btn-primary">Log in</button>
         </div>
     </nav>
+
     <!-- Call out --------------------------------------------------------------------------------------------->
-    <div class="container-fluid cointainer-callout">
+    <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Reduce ecological footprint by simple actions!</h1>
-                    <hr>
-                    <p class="lead">Sign up today to start receiving hints and tips on how to save the world.
+                    <h1 class="jumbotron-header">Reduce ecological footprint!</h1>
+                    <hr class="block-divider">
+                    <p class="lead">Sign up today to start receiving hints and tips on how to save the planet.
                         <div>
-                            <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                            <button type="button" class="btn btn-primary btn-lg">Sign up</button>
                         </div>
-                        <blockquote class="blockquote">
+                        <div class="blockquote">
+                            <hr class="block-divider--white">
                             <p>"Raising awareness on the most pressing environmental issues of our time is more important than ever."</p>
                             <p>- Leonardo DiCaprio </p>
-                        </blockquote>
+                            <hr class="block-divider--white">
+                        </div>
                 </section>
             </div>
         </div>
     </div>
+
     <!-- about --------------------------------------------------------------------------------------------->
     <section class="about">
         <div>
-            <img src="assets/logo/green_actually_logo_white.jpg" height=100 width=340>
+            <img src="assets/logo/gaLOGO2.gif" height=193 width=512>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
             ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
@@ -66,10 +69,7 @@
 
     <footer class="cointainer-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5></h5>
-            </div>
-            <div class="col-sm-4 get-inspired uppercase">
+            <div class="col-sm-4 offset-4 get-inspired uppercase">
                 <h2>Get Inspired</h2>
                 <iframe class="video" src="https://www.youtube.com/embed/T28MW67OSDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -95,9 +95,6 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div class="col-sm-1">
-                <span></span>
             </div>
         </div>
     </footer>
