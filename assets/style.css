@@ -8,7 +8,7 @@ body {
     font-family: "Railway", sans-serif;
 }
 
-/*-------callout----------------*/
+/*------- navbar ---------------*/
 
 .logo {
     background: url("../assets/logo/gaLOGO.gif");
@@ -28,20 +28,20 @@ body {
 
 .navbar .navbar-toggler {
     border: 9px solid;
-    
+
 }
 
 .navbar .nav a {
     font-weight: lighter;
     color: #fafafa;
-    
+
 }
 
 nav div p {
-   color: #fafafa; 
+    color: #fafafa;
 }
 
-/*-----------------------callout*/
+/*------- callout ---------------*/
 
 .opaque-overlay {
     position: absolute;
@@ -60,20 +60,30 @@ nav div p {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
 }
 
 .jumbotron .lead {
     color: #fafafa;
-    margin: 25px 0;
+    margin: 25px 35px;
 }
 
 .blockquote {
     font-style: italic;
     font-family: "sans-serif";
     color: #fafafa;
-    font-size: 80%;
-    padding-top: : 25px;
+    font-size: 90%;
+    margin: 10px 10px;
+}
+
+@media (max-width:767px) {
+    .blockquote {
+        margin: 0px 40px 40px 40px;
+        padding: 0px 40px 40px 40px;
+    }
+}
+
+.btn-primary {
+    margin-bottom: 25px;
 }
 
 .block-divider--white {
@@ -88,11 +98,51 @@ nav div p {
     height: 10px;
     border: 0;
     background-image: linear-gradient(to bottom right, #09FF00, #00FF77);
+    margin-bottom: 45px;
 }
 
 .callout-container {
     height: 100vh;
     background: url("../assets/logo/green1-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cointainer-callout-1 {
+    height: 100vh;
+    background: url("../assets/logo/green-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cointainer-callout-2 {
+    height: 100vh;
+    background: url("../assets/logo/green2-bg.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cointainer-callout-3 {
+    height: 100vh;
+    background: url("../assets/logo/green3-bg.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -110,18 +160,27 @@ nav div p {
 
 
 
-/*-----------------------about*/
+/*------- about ---------------*/
 
 .about {
     text-align: center;
+    display: block;
 }
 
-.about div {
+.homelogo {
     padding: 55px;
+    height: auto;
+    max-width: 400px;
 }
 
 .about p {
     margin: 0px 90px 90px 90px;
+}
+
+@media (max-width:767px) {
+    .about p {
+        margin: 0px 40px 40px 40px;
+    }
 }
 
 .title {
@@ -140,16 +199,47 @@ nav div p {
 }
 
 .icon {
-    text-align: center;
-    display: block;
-    margin: 45px 0px 45px 0px;
+    text-align: right;
+    margin: 25px 0px 25px 25px;
+}
+
+@media (max-width:767px) {
+    .icon {
+        text-align: center;
+        margin: 15px 0px 15px 0px;
+    }
 }
 
 .ideas {
     text-align: left;
-    padding: 5px;
-    margin: 45px 0px 45px 0px;
+    margin: 25px 0px 25px 0px;
 }
+
+@media (max-width:767px) {
+    .ideas {
+        text-align: center;
+        margin: 15px 0px 15px 0px;
+    }
+}
+
+
+
+/*-----------------------home quotes ---------------*/
+
+.quotes-cointainer {
+    margin: 50px 55px;
+}
+
+.home-quotes {
+    margin: 25px 25px 25px 10px;
+    font-style: italic;
+    font-family: "sans-serif";
+}
+
+.quote-media {
+    margin-left: 50px;
+}
+
 
 /*-----------------------footer*/
 
@@ -165,29 +255,76 @@ footer {
     text-align: center;
     font-weight: lighter;
     font-size: 15px;
-    margin-top: 0px;
+    margin-top: 25px;
 }
 
+.more {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 25px 0px 15px 0px;
+    display: inline;
+}
+
+
 .video {
-    width: 280;
-    height: 157;
+    max-width: 280;
+    max-height: 157;
     margin: 20px;
+    border: solid 10px white;
 }
 
 .social-links {
+    display: inline-block;
     padding: 15px 30px 15px 0px;
 }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
+
+.facebook {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-image: url("../assets/logo/social1.jpg");
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 25px;
+    line-height: 1;
     text-align: center;
     color: #fafafa;
-    background: #27a844;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.download {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-image: url("../assets/logo/social2.jpg");
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.instagram {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-image: url("../assets/logo/social3.jpg");
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    color: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -195,9 +332,5 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #f8ffaf;
-}
-
-#footer-details {
-    padding: 20px;
+    background: #27a844;
 }
