@@ -10,6 +10,12 @@ body {
 
 /*------- navbar ---------------*/
 
+.navbar {
+    background-image: linear-gradient(to bottom right, #09FF00, #00FF77);
+    font-family: "Railway", sans-serif;
+      color: #fafafa;
+}
+
 .logo {
     background: url("../assets/logo/gaLOGO.gif");
     background-position: center;
@@ -19,27 +25,10 @@ body {
     width: 130px;
 }
 
-.navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-image: linear-gradient(to bottom right, #09FF00, #00FF77);
-    border: 0;
+.nav-link {
+    color: white;
 }
 
-.navbar .navbar-toggler {
-    border: 9px solid;
-
-}
-
-.navbar .nav a {
-    font-weight: lighter;
-    color: #fafafa;
-
-}
-
-nav div p {
-    color: #fafafa;
-}
 
 /*------- callout ---------------*/
 
@@ -80,6 +69,13 @@ nav div p {
         margin: 0px 40px 40px 40px;
         padding: 0px 40px 40px 40px;
     }
+}
+
+.blockquote2 {
+    font-style: italic;
+    font-family: "sans-serif";
+    color: #fafafa;
+    font-size: 90%;
 }
 
 .btn-primary {
@@ -165,22 +161,22 @@ nav div p {
 .about {
     text-align: center;
     display: block;
+    margin: 0px 90px 90px 90px;
+}
+
+@media (max-width:767px) {
+    .about {
+        margin: 0px 40px 40px 40px;
+    }
 }
 
 .homelogo {
     padding: 55px;
     height: auto;
     max-width: 400px;
-}
-
-.about p {
-    margin: 0px 90px 90px 90px;
-}
-
-@media (max-width:767px) {
-    .about p {
-        margin: 0px 40px 40px 40px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .title {
@@ -263,7 +259,6 @@ footer {
     font-weight: lighter;
     font-size: 15px;
     margin: 25px 0px 15px 0px;
-    display: inline;
 }
 
 
@@ -275,13 +270,12 @@ footer {
 }
 
 .social-links {
-    display: inline-block;
-    padding: 15px 30px 15px 0px;
+    display: block;
+    padding: 15px;
 }
 
 
 .facebook {
-    display: inline-block;
     width: 52px;
     height: 52px;
     background-image: url("../assets/logo/social1.jpg");
@@ -298,7 +292,6 @@ footer {
 }
 
 .download {
-    display: inline-block;
     width: 52px;
     height: 52px;
     background-image: url("../assets/logo/social2.jpg");
@@ -315,7 +308,6 @@ footer {
 }
 
 .instagram {
-    display: inline-block;
     width: 52px;
     height: 52px;
     background-image: url("../assets/logo/social3.jpg");
@@ -333,4 +325,8 @@ footer {
 
 .social-links li a i:hover {
     background: #27a844;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
