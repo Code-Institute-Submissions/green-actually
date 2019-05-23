@@ -13,7 +13,6 @@ body {
 .navbar {
     background-image: linear-gradient(to bottom right, #09FF00, #00FF77);
     font-family: "Railway", sans-serif;
-      color: #fafafa;
 }
 
 .logo {
@@ -25,10 +24,23 @@ body {
     width: 130px;
 }
 
-.nav-link {
-    color: white;
+/*----------modal-------------------*/
+
+.fa-envelope {
+    color: #09FF00;
 }
 
+.fa-lock {
+    color: #09FF00;
+}
+
+.fa-leaf {
+    color: #09FF00;
+}
+
+.modal-header {
+    color: #09FF00;
+}
 
 /*------- callout ---------------*/
 
@@ -329,4 +341,12 @@ footer {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+
+.block-divider--white2 {
+    width: 200px;
+    height: 1px;
+    border: 0;
+    background-color: #fafafa;
 }

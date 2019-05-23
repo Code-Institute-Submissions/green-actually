@@ -28,30 +28,44 @@
             </ul>
         </div>
         <div class="d-none d-md-block">
-           <p class="navbar-text my-auto mr-2"><i>Go Green Actually!</i></p>
-           <button type="button" class="btn btn-primary my-auto">Log in</button>
-     </div>
+            <p class="navbar-text my-auto mr-2"><i>Go Green Actually!</i></p>
+        </div>
+        <!------- modal ------->
+        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center ">
+                        <h2 class="modal-title w-100 font-weight-bold uppercase">Login</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    </div>
+                    <div class="navbar-text my-auto text-center mr-2"><i>Go Green Actually!</i></div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix black-text"></i>
+                            <input type="email" id="defaultForm-email" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                        </div>
+
+                        <div class="md-form mb-4">
+                            <i class="fas fa-lock prefix black-text"></i>
+                            <input type="password" id="defaultForm-pass" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="" class="btn btn-primary my-auto" data-toggle="modal" data-target="#modalLoginForm">Login</a>
+        </div>
     </nav>
 
-
-
-
-
-    <!--<nav class="navbar navbar-expand-sm">-->
-    <!--    -->
-    <!--    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">-->
-    <!--    <span class="navbar-toggler-icon"></span></button>-->
-
-    <!--    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">-->
-    <!--        <ul class="nav">-->
-    <!--            -->
-    <!--        </ul>-->
-    <!--    </div>-->
-    <!--    <div class="d-none d-md-block">-->
-    <!--        <p class="navbar-text my-auto mr-2"><i>Go Green Actually!</i></p>-->
-    <!--        <button type="button" class="btn btn-primary my-auto">Log in</button>-->
-    <!--    </div>-->
-    <!--</nav>-->
 
     <!-- Call out --------------------------------------------------------------------------------------------->
     <div class="container-fluid callout-container">
@@ -62,9 +76,37 @@
                     <h1 class="jumbotron-header uppercase">Reduce ecological footprint!</h1>
                     <hr class="block-divider">
                     <p class="lead">Sign up for newsletter to start receiving hints and tips on how to save the planet.
-                        <div>
-                            <button type="button" class="btn btn-primary btn-lg">Sign up for Newsletter!</button>
+
+                        <!---- modal2 ------->
+                        <div class="modal fade" id="modalLoginForm2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-center ">
+                                        <h2 class="modal-title w-100 font-weight-bold uppercase">
+                                            Sign Up for Newsletter!
+                                        </h2>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                    </div>
+                                    <div class="modal-body mx-3">
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-leaf prefix black-text"></i>
+                                            <input type="email" id="defaultForm-email2" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="defaultForm-email2">Your email</label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button class="btn btn-primary">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="text-center">
+                            <a href="" class="btn btn-lg btn-primary my-auto" data-toggle="modal" data-target="#modalLoginForm2">Sign Up for Newsletter!</a>
+                        </div>
+                        <!------- Leo quote ----->
+
                         <div class="blockquote">
                             <hr class="block-divider--white">
                             <p>"Raising awareness on the most pressing environmental issues <br /> of our time is more important than ever."</p>
@@ -155,10 +197,10 @@
                     </ul>
                 </div>
                 <div class="blockquote2">
-                    <hr class="block-divider--white">
+                    <hr class="block-divider--white2">
                     <p>"We cannot solve a crisis without treating it as a crisis."</p>
                     <p>- Greta Thunberg</p>
-                    <hr class="block-divider--white">
+                    <hr class="block-divider--white2">
                 </div>
             </div>
         </div>
