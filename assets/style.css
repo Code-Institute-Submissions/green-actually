@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Railway:100,200,300,400,500,600,700');
 
+html, body { 
+    overflow-x: hidden; 
+}
+
 .uppercase {
     text-transform: uppercase;
 }

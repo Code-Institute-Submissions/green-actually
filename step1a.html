@@ -14,7 +14,7 @@
 <body>
 
     <!-- navbar --------------------------------------------------------------------------------------------->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a href="index.html" class="logo my-auto"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,14 +24,14 @@
                 <li class="nav-item"><a class="nav-link" href="/step1a.html">Step 1</a></li>
                 <li class="nav-item"><a class="nav-link" href="/step2.html">Step 2</a></li>
                 <li class="nav-item"><a class="nav-link" href="/step3.html">Step 3</a></li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/">Log in</a></li>
             </ul>
         </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Go Green Actually!</i></p>
         </div>
         <!------- modal ------->
-        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="d-none d-md-block">
+            <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header text-center ">
@@ -64,8 +64,9 @@
         <div class="text-center">
             <a href="" class="btn btn-primary my-auto" data-toggle="modal" data-target="#modalLoginForm">Login</a>
         </div>
+            </div>
+        
     </nav>
-
 
     <!-- teaser  --------------------------------------------------------------------------------------------->
     <section class="container-fluid  container-callout-1">
@@ -89,7 +90,7 @@
         </div>
 
     </section>
-    <!-- about --------------------------------------------------------------------------------------------->
+    <!-- content --------------------------------------------------------------------------------------------->
     <div class="container about">
         <div>
             <img src="assets/logo/gaLOGO2.gif" alt="logo" class="homelogo">
@@ -101,6 +102,30 @@
             <div class="col-md-6 ideas">
                 <h2 class="uppercase">Eat less meat</h2>
                 <p class="my-auto">To be more eco-friendly is to know what you eat. Be little bit more careful with what you’re consuming. Red meat! You don't actually need it for every meal. Consuming less meet have a significant impact on reducing your carbon footprint. Substitution comes in plenty in your local supermarket.</p>
+            </div>
+            <div class="col-md-2">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 icon">
+                <img src="https://img.icons8.com/bubbles/100/000000/trash.png">
+            </div>
+            <div class="col-md-6 ideas">
+                <h2 class="uppercase">Take a bag with you</h2>
+                <p class="my-auto">One croissant from the store may cost you 25 to 50 cents. Plastic bag for it is far free. You are going to use it for no more than couple of minutes. However, the bag will remain arround for couple of centuries. Always bring your own reusable bag to the store.</p>
+            </div>
+            <div class="col-md-2">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 icon">
+                <img src="https://img.icons8.com/bubbles/100/000000/edit.png">
+            </div>
+            <div class="col-md-6 ideas">
+                <h2 class="uppercase">Vote</h2>
+                <p class="my-auto">That does not happen every year, and when it does it's pretty straight forward which party actually cares about environmental issues. Every vote counts.</p>
             </div>
             <div class="col-md-2">
                 <span></span>
@@ -133,7 +158,7 @@
                         </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a href="assets/doc/Green_Actually_Doc.pdf" target="_blank" class="cv-pdf">
                             <i class="fas fa-download download" aria-hidden="true"></i>
                             <span class="sr-only">Download link</span>
                         </a>
