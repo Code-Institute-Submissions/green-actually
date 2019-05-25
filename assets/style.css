@@ -48,6 +48,10 @@ body {
 
 /*------- callout ---------------*/
 
+.jumbotron-header {
+    margin: 25px 15px 0px 15px !important; 
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
